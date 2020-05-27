@@ -1,0 +1,36 @@
+{
+    "name": "tsung/svg-field",
+    "description": "SVG field for laravel nova",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "authors": [
+        {
+            "name": "anditsung",
+            "email": "anditsung@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tsung\\SvgField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tsung\\SvgField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
